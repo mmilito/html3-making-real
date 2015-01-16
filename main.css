@@ -1,0 +1,121 @@
+/* Mockup CSS*/
+
+body {
+	background-color: gray;
+}
+.page_container {
+	background-color: #fff;
+	width: 65%;
+	margin:auto;
+	font:arial;
+}
+.page_top {
+	overflow: hidden;
+	height: 200px;
+	font-size: 17px;
+	color: #fff;
+	background-color: #27ae60;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+}
+
+.page_top h1 {
+	padding-top: 100px;
+	margin-top: 50px;
+}
+
+.nav_horizontal ul {
+	height: 50px;
+	background-color: black;
+	margin: 0;
+		text-align: right;
+}
+
+.nav_horizontal li {
+	display: inline-block;
+	margin: 10px;
+	padding-top: 15px;
+	color: #fff;
+}
+
+.nav_vertical {
+	position:absolute;
+	width:200px;
+	background-color: #fff;
+	margin-left: 66%;
+	margin-right: 30%;
+	border-bottom: 1px solid #000;
+}
+.nav_vertical .list_header {
+	list-style: none;
+	color: black;
+	margin: 10px 0;
+}
+.nav_vertical .list_item {
+	list-style: none;
+	color: gray;
+	font-size: .75em;
+	margin-top:5px;
+	margin-left:15px;
+
+}
+
+.title .title_header {
+	/*font-size: .75em;*/
+	padding-left: 10px;
+}
+
+.title .content {
+		padding-left: 40px;
+		margin-right: 40px;
+}
+
+.section_header {
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border-bottom: 2px solid #7f8c8d;
+}
+
+/*.section_title {
+	padding-left: 25px;
+}*/
+thead .col {
+	background-color: #DCDCDC;
+	border: 1px solid #7f8c8d;
+
+}
+.table_container {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.table_detail {
+	border:1px solid #7f8c8d ;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.what {
+	width:15%;
+	padding-left: 20px;
+}
+.where {
+	width: 70%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.table_detail .table_button{
+	color:#fff;
+	text-decoration: none;
+	background-color: #1E90FF;
+	margin: 25px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+}
+
+
+
