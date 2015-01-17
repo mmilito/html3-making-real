@@ -123,22 +123,52 @@ thead .col {
 .placeholder {
 	background-color: #DCDCDC;
 	position: relative;
-	height: 100px;
-	margin:25px;
+	max-width: 100%;
+	height: auto;
+	margin-left: 5%;
+	margin-right: 5%;
 }
+
 .placeholder .place_content:first-child {
 	padding-top: 5%;
 }
 
+.placeholder .place_content:last-child {
+	padding-bottom: 5%;
+}
+
 .placeholder .place_content {
-	/*position: absolute;*/
-	/*font-size: .75em;*/
-	/*text-align: center;*/
+	font-family: courier;
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: 5%;
+	padding-left: 5%;
 }
 
 .placeholder .place_indent {
 	margin-left: 10%;
+}
+
+.image_big {
+	display: block;
+	max-width: 100%;
+	max-height: auto;
+	text-align: center;
+	padding-left: 5%;
+}
+
+.instruction_list {
+	padding-left: 9%;
+	padding-bottom: 5%;
+}
+
+.list_item {
+	padding-top: 2%;
+	padding-right: 5%;
+}
+
+.page_attrib {
+background-color: green;
+	color: gray;
+	font-weight: lighter;
 }
