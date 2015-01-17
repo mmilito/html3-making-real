@@ -1,4 +1,7 @@
 /* Mockup CSS*/
+*{
+	box-sizing: border-box;
+}
 
 body {
 	background-color: gray;
@@ -117,5 +120,25 @@ thead .col {
 	padding-right: 20px;
 }
 
+.placeholder {
+	background-color: #DCDCDC;
+	position: relative;
+	height: 100px;
+	margin:25px;
+}
+.placeholder .place_content:first-child {
+	padding-top: 5%;
+}
 
+.placeholder .place_content {
+	/*position: absolute;*/
+	/*font-size: .75em;*/
+	/*text-align: center;*/
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 5%;
+}
 
+.placeholder .place_indent {
+	margin-left: 10%;
+}
