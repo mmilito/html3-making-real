@@ -168,7 +168,22 @@ thead .col {
 }
 
 .page_attrib {
-background-color: green;
+	color: gray;
+	font-weight: lighter;
+	padding-bottom: 45px;
+	margin-bottom: 1px;
+}
+
+.title_header {
+	margin-left: 10px;
+	padding-left: 55px;
+	margin-top: 1px;
+	padding-top: 50px;
+}	
+
+legend {
+	margin-left:50px;	
+	padding: 0 20px;
 	color: gray;
 	font-weight: lighter;
 }
